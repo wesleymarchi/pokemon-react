@@ -1,8 +1,8 @@
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState, useRef } from 'react';
 
 export function useNearScreen () {
-    const ref = useRef(null)
-    const [show, setShow] = useState(false)
+    const ref = useRef(null);
+    const [show, setShow] = useState(false);
 
     useEffect(function () {
         Promise.resolve(
@@ -20,7 +20,7 @@ export function useNearScreen () {
                 })
                 observer.observe(ref.current)
             })
-    }, [ref])
+    }, [ref]);
 
-    return [show, ref]
+    return [show, ref];
 }
