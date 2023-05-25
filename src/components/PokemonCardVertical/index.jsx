@@ -21,7 +21,7 @@ import { Tag } from '../Tag';
 export const PokemonCardVertical = (props) => {
     const {
         name = 'Charizard',
-        image = 'https://vignette.wikia.nocookie.net/es.pokemon/images/9/95/Charizard.png/revision/latest/scale-to-width-down/1000?cb=20180325003352',
+        image = 'https://s3-alpha-sig.figma.com/img/1a0f/5126/b638810ffccc93e1acae4b12a5feaea6?Expires=1685923200&Signature=TD4Q2CTcqzRoI4-iclY1NrBd~4IZPuI0JE~cz3DJ5wYmCiJo5B01fb7dJ8jOZx7X-hwjK0-5LDqavvmhIAdBqdWBz~gZIEbrU6yt8Fm4Jr6egBTT31v9v8M5gVkJ~ooYxhh-Ny3FAOmdlrjki85vBbqKYmcuXQ03TjXJvEuOtdKRqe6KVaPphKFhUWx4FJzHm17zz53rN4D9U9CnwPk7to3~IHGJYqzIcvvoSg5USvBj~E6CkrqgpFyFHjGKc~jxhBDthRIBVYuDAs6kr179CfpK4Qeg5me~XmZ6iIb7AuiwIrT0qOGXvF4Sys0mmrko0ahaEmTjGtKq-FPi4Ms1YQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
         attack = 165,
         spAttak = 130,
         defense = 49,
