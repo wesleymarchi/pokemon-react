@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyleButton = styled.button `
+export const StyleButton = styled.button`
   margin: 0;
   box-shadow: ${({ theme }) => theme.shadowButton};
   border: transparent;
