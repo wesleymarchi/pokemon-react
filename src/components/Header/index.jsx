@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {Link} from '@reach/router';
-import {MdMenu} from "react-icons/all";
+import {MdMenu} from "react-icons/md";
 import './styles';
 import {ModalMenu} from '../ModalMenu';
 import {Nav} from '../Nav';
