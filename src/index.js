@@ -5,7 +5,7 @@ import { ApolloProvider } from 'react-apollo';
 import { App } from './routes/App';
 
 const client = new ApolloClient({
-    uri: 'https://blissful-mile-280405.ue.r.appspot.com/graphql'
+    uri: 'localhost:3000'
 })
 
 ReactDOM.render(

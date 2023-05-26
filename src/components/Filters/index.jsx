@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {ListFilterWithTypes} from '../../containers/ListFilterWithTypes';
-import {RangesFilter} from '../../components/RangesFilter';
+import {RangesFilter} from '../RangesFilter';
 import './styles';
 import {Section} from "./styles";
 
