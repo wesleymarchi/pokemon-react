@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Img, Description, ContainerProps } from './styles';
 import { SparkCicleFeature } from '../SparkCircleFeature';
 import { Tag } from '../Tag';
-import { useNearScreen } from '../../hook/useNearScreen';
+import { useNearScreen } from '../../hooks/useNearScreen';
 
 export const PreviewCard = (props) => {
     const {

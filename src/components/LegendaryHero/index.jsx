@@ -32,7 +32,8 @@ export const LegendaryHero = (props) => {
         <LoadingErrorContainer><ErrorLoading message={"Sorry, we could't find the pokemons"} /></LoadingErrorContainer>
     }
 
-    const [show, ref] = useNearScreen();
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    const [show, ref] = useNearScreen()
 
     const {
         node: {

@@ -1,6 +1,8 @@
 import React from "react";
 import {Link} from '@reach/router';
 import './styles';
+import {Container, Credits, Item, StyledFooter} from "./styles";
+import {Nav} from "../Nav";
 
 export const Footer = () => {
     return (

@@ -5,6 +5,7 @@ import './styles';
 import {ModalMenu} from '../ModalMenu';
 import {Nav} from '../Nav';
 import Logo from '../../assets/logo.svg';
+import {BurgerButton, Container, Img, StyledHeader, StyleNav} from "./styles";
 
 export const Header = () => {
     const [showModal, setShowModal] = useState(false);

@@ -2,6 +2,7 @@ import React from "react";
 import './styles';
 import PokeballIcon from '../../assets/pokeballGold.svg';
 import {useNearScreen} from '../../hooks/useNearScreen';
+import {Card, Container, Img, Pokeball} from "./styles";
 
 export const LegendaryCard = (props) => {
     const {

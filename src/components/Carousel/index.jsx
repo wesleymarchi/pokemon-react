@@ -4,7 +4,7 @@ import {Slider} from "infinite-react-carousel";
 import {LegendaryCard} from '../LegendaryCard';
 import {useResize} from '../../hooks/useResize';
 
-import {MdKeyboardArrowLeft, MdKeyboardArrowRight} from 'react-icons'
+import {MdKeyboardArrowLeft, MdKeyboardArrowRight} from 'react-icons/md';
 import {Container} from './styles';
 import {Loading} from '../Loading';
 import {ErrorLoading} from '../ErrorLoading';
@@ -37,7 +37,8 @@ export const Carousel = (props) => {
         return <ErrorLoading message={"Sorry, we couldn't find the pokemons."} />
     }
 
-    const [width, ref] = useResize();
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    const [width, ref] = useResize()
 
     const settings = {
         className: 'carousel',

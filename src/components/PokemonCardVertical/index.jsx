@@ -41,7 +41,6 @@ export const PokemonCardVertical = (props) => {
             <Img>
                 <img
                     src={image}
-                    alt={`Image de pokemon #${pokedexNumber}`}
                 />
             </Img>
 

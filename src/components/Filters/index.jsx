@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import {ListFilterWithTypes} from '../../containers/ListFilterWithTypes';
 import {RangesFilter} from '../../components/RangesFilter';
 import './styles';
+import {Section} from "./styles";
 
 export const Filters = ({ handleFilter }) => {
     const [openTypes, setOpenTypes] = useState(false);
